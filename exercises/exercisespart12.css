@@ -106,3 +106,33 @@
   height: 50px;
   border: grey 1px solid;
 }
+
+/* Exercise 12E) */
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.exercise12e-container {
+  border: 1px solid grey;
+  border-radius: 12px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.flexbox-one {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 12px;
+  align-items: center;
+}
+
+.number {
+  background-color:  cornflowerblue;
+  color: white;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
