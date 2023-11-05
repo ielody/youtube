@@ -1,0 +1,108 @@
+.flexboxall {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.flexbox-1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flexbox-2 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.flexboxall2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.flexbox-3 {
+  background-color: lightblue;
+  width: 100px;
+}
+
+.flexbox-4 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.flexbox-5 {
+  background-color: lightblue;
+  width: 70px;
+}
+
+.flexboxall3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  background-color: lightpink;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.flexbox-6 {
+  width: 75px;
+}
+
+.flexbox-7 {
+  width: 75px;
+}
+
+.flexbox-8 {
+  width: 75px;
+}
+
+.flexbox-9 {
+  width: 75px;
+}
+
+.flexboxall4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: grey 1px solid;
+
+}
+
+.flexbox-10 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.flexbox-11 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+
+/* SOLUTION */
+/* 12C) */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.lightpink {
+  background-color: lightpink;
+}
+
+/* SOLUTION 12D) */
+.flexbox200 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: grey 1px solid;
+}
