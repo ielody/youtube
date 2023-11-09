@@ -136,3 +136,87 @@ div {
   font-size: 14px;
   font-weight: bold;
 }
+
+
+/* Exercise 12F) */
+.header12f {
+background-color: rgb(139, 83, 192);
+margin-top: 30px;
+padding: 6px 12px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+color: white;
+font-size: 14px;
+max-width: 700px;
+}
+
+.home12f {
+font-weight: bold;
+}
+
+input {
+max-width: 300px;
+width: 300px;
+border-radius: 200px;
+padding: 5px 10px;
+}
+
+.download {
+  border: white 1px solid;
+  background-color: rgb(139, 83, 192);
+  color: white;
+  padding: 5px 10px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.katteprofiler {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ppicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.pinfo {
+  width: 200px;
+}
+
+.pname {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.phandle {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.pcategory {
+  color: grey;
+  font-size: 13px;
+}
+
+.follow-button {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+
+}
