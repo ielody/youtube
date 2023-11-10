@@ -1,0 +1,33 @@
+body {
+  height: 3000px;
+}
+
+.bottom-right {
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+
+.right-sidebar {
+  background-color: green;
+  color: white;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100px;
+}
+
+.blackout {
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+
